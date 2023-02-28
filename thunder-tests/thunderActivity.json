@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "1a2d1a9a-725c-4978-ac26-b09953708224",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/auth/signup",
+    "url": "http://localhost:8080/api/auth/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-28T10:07:28.794Z",
+    "modified": "2023-02-28T10:14:22.010Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"Harrison\",\n  \"email\" : \"fhatuwani@live.com\",\n  \"password\": \"test1234567\",\n  \"roles\": \"user\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "84e74e5b-ff51-45e7-ae46-b562ea468283",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/auth/signup",
+    "url": "http://localhost:8080/api/test/mod",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-28T10:38:16.344Z",
+    "modified": "2023-02-28T10:54:43.257Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "225a00a6-dd5f-4f17-91e1-5bdedb827319",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/user/signup",
+    "url": "http://localhost:8080/user/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-28T13:25:03.829Z",
+    "modified": "2023-02-28T13:25:03.829Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Fhatuwani\",\n  \"email\": \"fhatuwani@live.com\",\n  \"password\": \"test1234567\",\n  \"dateOfBirth\": \"17-08-1989\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
